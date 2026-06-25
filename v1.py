@@ -74,3 +74,53 @@ class CajeroAutomatico:
 
         except ValueError:
             print("Error: Ingrese un numero valido.")
+
+#transferencia
+
+def transferir(self):
+    try:
+        monto = float(input("Ingrese el monto que desea transferir: $"))
+        cbu = int(input("Ingrese el CBU del destinatario: "))
+        if monto <= 0:
+            print("Error: El monto debe ser mayor que cero.")
+        elif monto > self.saldo:
+            print("Error: Fondos insuficientes.")
+        else:
+            self.saldo -= monto
+            self.historial.append(f"Se han transferido de su cuenta: ${monto:.2f}")
+            self.contador_operaciones += 1
+            print("Transferencia exitosa.")
+
+    except ValueError:
+        print("Error: Ingrese numero valido.")
+
+iniciar = input("¿Desea iniciar sesión? (s/n): ")
+if iniciar == 's':
+    cajero = cajeroAutomatico()
+    sesion = iniciar_sesion(cajero)
+    if sesion:
+        while True:
+            print("\nSeleccione una opción:")
+            print("1. Consultar saldo")
+            print("2. Depositar dinero")
+            print("3. Extraer dinero")
+            print("4. Transferir dinero")
+            print("5. Salir")
+
+            opcion = input("Ingrese el número de la opción deseada: ")
+
+            if opcion == '1':
+                consultar_saldo(cajero)
+            elif opcion == '2':
+                depositar(cajero)
+            elif opcion == '3':
+                extraer(cajero)
+            elif opcion == '4':
+                transferir(cajero)
+            elif opcion == '5':
+                print("Gracias por usar el cajero automático. ¡Hasta luego!")
+                break
+            else:
+                print("Opción no válida. Por favor, intente nuevamente.")
+else:
+    print("Sesión no iniciada. ¡Hasta luego!")
