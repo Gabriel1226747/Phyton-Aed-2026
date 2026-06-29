@@ -8,6 +8,10 @@ ISI 1.2
 
 Grupo B 6
 
+## Escenario asignado
+
+Numero 4
+
 ## Integrantes
 
 * Ledesma Taragano Gabriel Damián
@@ -43,5 +47,5 @@ Los datos de la cuenta se almacenan en un archivo de texto para conservar la inf
 
 ## Uso de IA
 
-sigue
+Se utilizo la IA ChatGPT y Gemini para resolver dudas especificas y en la depuracion y busqueda de errores en el codigo. Ademas se le solicito que entregue sets de datos tanto esperados como no esperados con el fin de testear todas las funciones del programa.
 
