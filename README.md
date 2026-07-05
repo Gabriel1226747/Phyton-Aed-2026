@@ -51,3 +51,10 @@ Los datos de la cuenta se almacenan en un archivo de texto para conservar la inf
 
 Se utilizo la IA ChatGPT y Gemini para resolver dudas especificas y en la depuracion y busqueda de errores en el codigo. Ademas se le solicito que entregue sets de datos tanto esperados como no esperados con el fin de testear todas las funciones del programa.
 
+
+## Instrucciones de uso
+
+Para ejecutar el código es importante que el archivo de datos.txt  se encuentre en la misma carpeta que el archivo codigo.py. Para iniciar sesión se debe ingresar la opción de “s” y después colocar las credenciales de acceso que se encuentran en el archivo de datos.txt las cuales son:
+Usuario: admin 
+Contraseña:1234 
+Después de colocar las credenciales el sistema va a permitir ingresar al mismo y elegir entre las 7 opciones disponibles. Una vez que se termine de ocupar se debe seleccionar la opción 7 para salir y terminar.
