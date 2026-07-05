@@ -16,14 +16,14 @@ Numero 4
 
 * Ledesma Taragano Gabriel Damián
 * Brunella Bianca Passera
-* Rocio del cielo Ybars Gomez de la Fuente
+* Rocio del Cielo Ybars Gomez de la Fuente
 * Julio Cesar Brest
 * Dario Sebastian Gnus
   
 Estos ultimos dos compañeros de la lista no aportaron al desarrollo del trabajo o abandonaron la cursada de la materia o la carrera.
 
 ## Nota importante
-Nos dimos cuenta que la consigna pedia que el trabajo se realize en un repositorio de github en un estado donde ya habiamos avanzado bastante con el codigo de la aplicacion debido a esto el historial de las versiones fueron subidas en un intervalo de tiempo corto pero esto no impide el objetivo de que se pueda ver como el codigo fue evolucionando hasta su version final. Como evidencia adicional se procede a listar las fechas de cada version del codigo que se guardo en nuestras computadoras.
+Nos dimos cuenta que la consigna pedia que el trabajo se realice en un repositorio de github en un estado donde ya habiamos avanzado bastante con el codigo de la aplicacion debido a esto, el historial de las versiones fueron subidas en un intervalo de tiempo corto, pero esto no impide el objetivo de que se pueda ver como el codigo fue evolucionando hasta su version final. Como evidencia adicional se procede a listar las fechas de cada version del codigo que se guardo en nuestras computadoras.
 
 ## Changelog (historial de cambios)
 * V1 (parte inicial): 9/6/2026 20:13
